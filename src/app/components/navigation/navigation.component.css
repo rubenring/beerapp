@@ -1,0 +1,21 @@
+.mainNav{
+    margin: 1em 0;
+    display: inline-block;
+}
+.navlink{
+    font-size: 18px;
+    color: black;
+    padding: 1em;
+}
+.navlink:hover{
+ text-decoration: none;
+ background-color: deepskyblue;
+}
+.active{
+  font-weight: bold;
+  background-color: deepskyblue;
+  text-decoration: none;
+}
+.navlink:active, navlink:focus{
+ text-decoration: none;
+}
