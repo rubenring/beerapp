@@ -1,0 +1,16 @@
+.recipie-list-container{
+    padding: 0.2em;
+}
+.recipie-list{
+    display: inline-block;
+
+}
+.recipie-listitem{
+    list-style: none;
+}
+.listitem-link:hover{
+    cursor: pointer;
+}
+.listitem-link{
+
+}

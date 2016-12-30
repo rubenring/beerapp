@@ -1,0 +1,7 @@
+<div class="recipie-list-container">
+    <ul class="recipie-list">
+        <li class="recipie-listitem" *ngFor="let item of recipieList">
+            <a class="listitem-link" (click)="selectRecipie(item)" routerLinkActive="active">{{item.name}}</a>
+        </li>
+    </ul>
+</div>
